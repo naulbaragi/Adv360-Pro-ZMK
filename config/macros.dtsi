@@ -1,3 +1,9 @@
+macro_macro_macallwin: macro_macro_macallwin{
+compatible = "zmk,behavior-macro";
+label = "macro_macro_macallwin";
+#binding-cells = <0>;
+bindings = <&kp LEFT_CONTROL>, <&kp UP>;
+};
 macro_changlang: macro_changlang{
 compatible = "zmk,behavior-macro";
 label = "macro_changlang";
