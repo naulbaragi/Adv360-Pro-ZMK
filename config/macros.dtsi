@@ -2,7 +2,7 @@ macro_windowrightdesk: macro_windowrightdesk{
 compatible = "zmk,behavior-macro";
 label = "macro_windowrightdesk";
 #binding-cells = <0>;
-bindings = <&kp LEFT_COMMAND>, <&kp LEFT_CONTROL>, <&kp RIGHT>;
+bindings = <&kt LEFT_GUI>, <&kt LCTRL>, <&kp RIGHT>, <&kp LEFT_GUI>, <&kp LCTRL>;
 };
 macro_windowleftdesk: macro_windowleftdesk{
 compatible = "zmk,behavior-macro";
