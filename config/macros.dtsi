@@ -32,13 +32,13 @@ macro_macspotlight: macro_macspotlight{
 compatible = "zmk,behavior-macro";
 label = "macro_macspotlight";
 #binding-cells = <0>;
-bindings = <&kp LEFT_COMMAND>, <&kp SPACE>;
+bindings = <&kt LEFT_GUI>, <&kp SPACE>, <&kp LEFT_GUI>;
 };
 macro_macallwindow: macro_macallwindow{
 compatible = "zmk,behavior-macro";
 label = "macro_macallwindow";
 #binding-cells = <0>;
-bindings = <&kp LEFT_CONTROL>, <&kp UP>;
+bindings = <&kt LCTRL>, <&kp UP>, <&kp LCTRL>;
 };
 macro_changlang: macro_changlang{
 compatible = "zmk,behavior-macro";
