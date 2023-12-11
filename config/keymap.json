@@ -4,7 +4,7 @@
   "layout": "LAYOUT",
   "layer_names": [
     "base",
-    "mac",
+    "num",
     "fn",
     "mod",
     "fnwindow"
