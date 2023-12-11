@@ -2,19 +2,19 @@ macro_windowrightdesk: macro_windowrightdesk{
 compatible = "zmk,behavior-macro";
 label = "macro_windowrightdesk";
 #binding-cells = <0>;
-bindings = <&kt LEFT_GUI>, <&kt LCTRL>, <&kp RIGHT>, <&kp LEFT_GUI>, <&kp LCTRL>;
+bindings = <&kt LEFT_GUI>, <&kt LCTRL>, <&kp RIGHT>, <&kt LEFT_GUI>, <&kt LCTRL>;
 };
 macro_windowleftdesk: macro_windowleftdesk{
 compatible = "zmk,behavior-macro";
 label = "macro_windowleftdesk";
 #binding-cells = <0>;
-bindings = <&kt LEFT_GUI>, <&kt LEFT_CONTROL>, <&kp LEFT>, <&kp LEFT_GUI>, <&kp LCTRL>;
+bindings = <&kt LEFT_GUI>, <&kt LEFT_CONTROL>, <&kp LEFT>, <&kt LGUI>, <&kt LCTRL>;
 };
 macro_windowalldesk: macro_windowalldesk{
 compatible = "zmk,behavior-macro";
 label = "macro_windowalldesk";
 #binding-cells = <0>;
-bindings = <&kt LEFT_GUI>, <&kp TAB>, <&kp LEFT_GUI>;
+bindings = <&kt LEFT_GUI>, <&kp TAB>, <&kt LEFT_GUI>;
 };
 macro_macrightwindow: macro_macrightwindow{
 compatible = "zmk,behavior-macro";
@@ -32,13 +32,13 @@ macro_macspotlight: macro_macspotlight{
 compatible = "zmk,behavior-macro";
 label = "macro_macspotlight";
 #binding-cells = <0>;
-bindings = <&kt LEFT_GUI>, <&kp SPACE>, <&kp LEFT_GUI>;
+bindings = <&kt LEFT_GUI>, <&kp SPACE>, <&kt LGUI>;
 };
 macro_macallwindow: macro_macallwindow{
 compatible = "zmk,behavior-macro";
 label = "macro_macallwindow";
 #binding-cells = <0>;
-bindings = <&kt LCTRL>, <&kp UP>, <&kp LCTRL>;
+bindings = <&kt LCTRL>, <&kp UP>, <&kt LCTRL>;
 };
 macro_changlang: macro_changlang{
 compatible = "zmk,behavior-macro";
