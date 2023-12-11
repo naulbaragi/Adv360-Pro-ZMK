@@ -1,12 +1,6 @@
-macro_macro_macspot: macro_macro_macspot{
+macro_macallwindow: macro_macallwindow{
 compatible = "zmk,behavior-macro";
-label = "macro_macro_macspot";
-#binding-cells = <0>;
-bindings = <&kp LEFT_COMMAND>, <&kp SPACE>;
-};
-macro_macro_macallwin: macro_macro_macallwin{
-compatible = "zmk,behavior-macro";
-label = "macro_macro_macallwin";
+label = "macro_macallwindow";
 #binding-cells = <0>;
 bindings = <&kp LEFT_CONTROL>, <&kp UP>;
 };
