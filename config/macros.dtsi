@@ -14,7 +14,7 @@ macro_windowalldesk: macro_windowalldesk{
 compatible = "zmk,behavior-macro";
 label = "macro_windowalldesk";
 #binding-cells = <0>;
-bindings = <&kp LEFT_COMMAND>, <&kp TAB>;
+bindings = <&kt LEFT_GUI>, <&kp TAB>, <&kp LEFT_GUI>;
 };
 macro_macrightwindow: macro_macrightwindow{
 compatible = "zmk,behavior-macro";
